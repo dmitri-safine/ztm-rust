@@ -6,6 +6,7 @@
 // Notes:
 // * Use a function to display your first name
 fn first_name() {
+    // print first name
     println!("Dmitri");
 }
 // * Use a function to display your last name
