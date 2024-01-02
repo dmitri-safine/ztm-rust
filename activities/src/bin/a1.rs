@@ -11,6 +11,7 @@ fn first_name() {
 }
 // * Use a function to display your last name
 fn last_name() {
+    //print last name
     println!("Safine");
 }
 // * Use the println macro to display messages to the terminal
