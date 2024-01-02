@@ -1,4 +1,4 @@
-// Topic: Flow control using if..else
+// Topic: flow control using if and else
 //
 // Program requirements:
 // * Displays a message based on the value of a boolean variable
@@ -11,5 +11,11 @@
 // * Use the println macro to display messages to the terminal
 
 fn main() {
-    println!("hello")
+    let is_hello = true;
+
+    if is_hello {
+        println!("hello");
+    } else {
+        println! {"goodbye"};
+    }
 }
